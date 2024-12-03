@@ -34,6 +34,10 @@ The evaluation of the pretrained models showed the following results:
 ![Screenshot 2024-12-01 170424](https://github.com/user-attachments/assets/8a60b359-8460-4d36-a7df-6cfb9eb12eab)
 
 **Note**: YOLOv8n-cls achieved the highest performance and was selected as the best model for real-time analysis.
+The deployment code for the **YOLOv8n-cls** model is hosted on Render and is available to test.
+
+- **Deployed API URL**: https://childdrawingclassifier-api.onrender.com/predict
+- **Repository URL**: https://github.com/HebaHamdan2/ChildDrawingClassifier-API
 
 ## Future Work
 The next step involves integrating the trained model into a web or mobile application, enabling parents to access real-time analysis of their children's drawings and store them for ongoing monitoring.
