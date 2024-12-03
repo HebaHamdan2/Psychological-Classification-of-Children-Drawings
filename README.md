@@ -36,7 +36,6 @@ The evaluation of the pretrained models showed the following results:
 **Note**: YOLOv8n-cls achieved the highest performance and was selected as the best model for real-time analysis.
 The deployment code for the **YOLOv8n-cls** model is hosted on Render and is available to test.
 
-- **Deployed API URL**: https://childdrawingclassifier-api.onrender.com/predict
 - **Repository URL**: https://github.com/HebaHamdan2/ChildDrawingClassifier-API
 
 ## Future Work
