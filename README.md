@@ -3,13 +3,14 @@
 ## Overview
 This project leverages deep learning to classify children's psychological health based on their drawings. Using pretrained models such as **EfficientNetB0, EfficientNetB1, MobileNetV2, ResNet50, and YOLOv8n-cls**, the model was trained and evaluated to determine the best approach for real-time classification. The top-performing model, **YOLOv8n-cls**, is designed to be deployed in web or mobile applications to help parents monitor and analyze their children's drawings, potentially helping identify signs of psychological stress or well-being.
 
-## Acknowledgment
-This work was heavily inspired by and based on the findings of the paper:  
-**"A Children's Psychological and Mental Health Detection Model by Drawing Analysis based on Computer Vision and Deep Learning"**  
-**Amal Alshahrani, Manar Mohammed Almatrafi, Jenan Ibrahim Mustafa, Layan Saad Albaqami, Raneem Abdulrahman Aljabri**  
-Available at: [here](https://etasr.com/index.php/ETASR/article/view/7812)  
+## Acknowledgment  
+This work was deeply inspired by and built upon the findings from the paper:
 
-This research provided valuable insights into the use of **YOLOv8n-cls**, which achieved a top-1 accuracy of 94% at epoch 10 with a smaller model size, making it highly efficient for mobile applications. Inspired by their findings, I retrained their dataset to reach comparable results, achieving a top-1 accuracy of **95.99% at epoch 10**.
+**"A Children's Psychological and Mental Health Detection Model by Drawing Analysis based on Computer Vision and Deep Learning"** 
+by Amal Alshahrani, Manar Mohammed Almatrafi, Jenan Ibrahim Mustafa, Layan Saad Albaqami, and Raneem Abdulrahman Aljabri,
+available [here](https://etasr.com/index.php/ETASR/article/view/7812).
+
+Their research provided valuable insights into the application of the **YOLOv8n-cls model**, which demonstrated a top-1 accuracy of **94%** at epoch 10 with a compact model size, making it highly efficient for mobile applications. Motivated by their work, I retrained their dataset to achieve comparable results, reaching a top-1 accuracy of **95.99%** at epoch 10.
 
 ## Dataset Information
 The dataset used for training and evaluation was collected from children aged **6 to 15 in Mecca**. It consists of **500** images, split as follows:
